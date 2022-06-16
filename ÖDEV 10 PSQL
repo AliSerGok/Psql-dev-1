@@ -1,0 +1,21 @@
+ÖDEV 10 PSQL
+
+1-) SELECT city, country
+    FROM city
+    LEFT JOIN country ON city.city_id = country.country_id;
+    
+2-) SELECT payment.payment_id, customer.first_name, customer.last_name
+    FROM customer
+    RIGHT JOIN payment ON payment.payment_id = customer.customer_id;
+    
+3-) SELECT payment.payment_id, customer.first_name, customer.last_name
+    FROM customer
+    FULL JOIN payment ON payment.payment_id = customer.customer_id;
+
+
+
+    
+
+
+
+    
